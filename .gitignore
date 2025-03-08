@@ -1,0 +1,34 @@
+# IDE ve Editör dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Environment dosyaları
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Vendor dizini
+/vendor/
+
+# Composer
+composer.lock
+
+# Log dosyaları
+*.log
+/logs/
+
+# Cache dosyaları
+/cache/
+
+# Geçici dosyalar
+/tmp/
+/temp/ 

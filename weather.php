@@ -1,8 +1,27 @@
 <?php
 header('Content-Type: application/json');
 
-// API anahtarını buraya ekleyin (https://www.weatherapi.com adresinden ücretsiz alabilirsiniz)
-$apiKey = "API_ANAHTARINIZ";
+// API anahtarını .env dosyasından veya environment variables'dan al
+function getApiKey() {
+    // Önce .env dosyasını kontrol et
+    if (file_exists('.env')) {
+        $env = parse_ini_file('.env');
+        if (isset($env['WEATHER_API_KEY'])) {
+            return $env['WEATHER_API_KEY'];
+        }
+    }
+    
+    // Environment variable'dan kontrol et
+    $envKey = getenv('WEATHER_API_KEY');
+    if ($envKey) {
+        return $envKey;
+    }
+    
+    // GitHub Pages için
+    return '3cec6dbe72f74275a1b164154250803'; // Varsayılan anahtar
+}
+
+$apiKey = getApiKey();
 $apiUrl = "http://api.weatherapi.com/v1/forecast.json?days=7&lang=tr&key=$apiKey";
 
 // Timeout ayarı
