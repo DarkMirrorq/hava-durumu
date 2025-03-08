@@ -49,21 +49,6 @@ WEATHER_API_KEY=SİZİN_API_ANAHTARINIZ
 
 4. Projeyi bir PHP sunucusunda çalıştırın (örn. XAMPP, WAMP).
 
-## 🚀 Kendi GitHub Pages Sayfanızda Yayınlama
-
-1. Projeyi fork edin
-2. Repository ayarlarından GitHub Pages'i aktifleştirin:
-   - Settings > Pages
-   - Source: Deploy from a branch
-   - Branch: master
-   - Save
-3. Birkaç dakika içinde siteniz yayında olacak
-4. API anahtarınızı güvenli bir şekilde yönetmek için:
-   - Repository Settings > Secrets and variables > Actions
-   - "New repository secret" tıklayın
-   - Name: WEATHER_API_KEY
-   - Value: API anahtarınız
-   - Add secret
 
 ## 💡 Kullanım
 
@@ -80,13 +65,6 @@ WEATHER_API_KEY=SİZİN_API_ANAHTARINIZ
 3. Değişikliklerinizi commit edin (`git commit -m 'Yeni özellik eklendi'`)
 4. Branch'inizi push edin (`git push origin yeni-ozellik`)
 5. Pull Request oluşturun
-
-## 🔒 Güvenlik
-
-- API anahtarınızı asla doğrudan kodunuzda paylaşmayın
-- Her zaman `.env` dosyası kullanın
-- `.env` dosyasını `.gitignore` listesine ekleyin
-- GitHub Pages için repository secrets kullanın
 
 ## 📝 Lisans
 
