@@ -1,0 +1,44 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+Copyright (C) 2024 DarkMirrorq
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+ZORUNLU ŞARTLAR:
+
+1.  Kaynak kodun paylaşılması zorunludur
+2.  Yapılan tüm değişiklikler aynı lisans altında paylaşılmalıdır
+3.  Telif hakkı bildirimi korunmalıdır
+4.  Değişiklikler belgelenmelidir
+
+KISITLAMALAR:
+
+1.  Yazılım kapalı kaynak yapılamaz
+2.  Farklı bir lisans kullanılamaz
+3.  Ticari kullanımda kaynak kod paylaşılmak zorundadır
+4.  Yazılımı kullanan diğer yazılımlar da GPL lisanslı olmak zorundadır
+
+For more details see <https://www.gnu.org/licenses/>.
+
+KULLANIM ŞARTLARI:
+
+1.  Bu yazılımı kullanan herhangi bir proje de açık kaynak olmak zorundadır
+2.  Yazılımda yapılan değişiklikler orijinal yazılım sahibine bildirilmelidir
+3.  Ticari kullanım için yazılım sahibinden izin alınmalıdır
+4.  Yazılımın kaynak kodu değiştirilemez, sadece eklemeler yapılabilir
+5.  Tüm değişiklikler dokümante edilmelidir
+
+İLETİŞİM:
+Yazılım sahibi: DarkMirrorq
+GitHub: https://github.com/DarkMirrorq
+
+Tüm hakları saklıdır © 2024
